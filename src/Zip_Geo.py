@@ -11,7 +11,7 @@ class ZipGeo:
     def __importData(self):
         dataLines:list
 
-        with open("data/zipGeoData.txt") as file:
+        with open("src/data/zipGeoData.txt") as file:
             dataLines = file.readlines()
             
         self._dataMaster.clear()
